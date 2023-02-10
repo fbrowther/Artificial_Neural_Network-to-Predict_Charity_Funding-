@@ -57,7 +57,7 @@ To build Artificial Neural Network Model that can predict whether future applica
       
       (3) keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
       
-      (4) Pandas - Data manupulation, Create bins for rare occurrences in columns, scaling, and OneHotEncoding        
+      (4) Pandas - Data manupulation, Create bins for rare occurrences in columns, Scaling, and OneHotEncoding        
 
 
 ![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp)
