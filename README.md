@@ -1,6 +1,9 @@
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp)
+
 # Artificial_Neural_Network-to-Predict_Charity_Funding-
 
 A nonprofit foundation called Alphabet Soup wants to develop a tool that can help select its applicants for funding with the best chance of success in their ventures. Hence employing their data on previous funding a binary classifier model was developed which will predict whether applicants will be successful or not if they were to be funded by the foundation. 
+
 
 ## Brief Introduction - 
 
@@ -150,9 +153,9 @@ Therefore, Hierarchial Clustering presents itself as a promising model that can 
 
 
 
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp)
 
-
-
+https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp
 
 
 
