@@ -62,14 +62,29 @@ To build Artificial Neural Network Model that can predict whether future applica
       (4) Pandas - Data manupulation, Create bins for rare occurrences in columns, Scaling, and OneHotEncoding        
 
 
-## Model Performance -
+## Model Performance & Modifications included to improve the performances-
 
 ![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
 
-## Modifications included to improve the performances-
 
+#### Preprocessing :
+                (1) EIN and NAME—Identification columns were removed from the original dataset,
+                (2) "rare" categorical variables were binned together for "Application_Type" and "Classification" columns, 
+                (3) Data was scaled, 
+                (4) Categorical columns encoded, 
+                (5) Training test and Testing test created and 
+                (6) the models were trained 
 
-#### (1) First_Model - 
+#### Trained Model Details :
+                (1) First_Model - All features included except 'EIN and NAME'
+                (2) Features Reduced - All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed
+                (3) Activation Function (Tanh) - Activation Function for hidden layers were changed to 'tanh' from 'relu'
+                (4) Increased Hidden layers - No. of hidden layers were increased to 
+                Dropout Regularization
+                Test Size(40%) + Tanh Activation
+                Automated Model (All Features)
+                Automated Model (Reduced Features)
+                Final Optimization (Organization Names Included)
 
 
 
