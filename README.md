@@ -66,7 +66,8 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
 
-## Model Modifications -
+## Modifications included to improve the performances-
+
 
 #### (1) First_Model - 
 
