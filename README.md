@@ -1,4 +1,4 @@
-![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp)
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/funding-available.jpeg)
 
 # Artificial_Neural_Network-to-Predict_Charity_Funding-
 
