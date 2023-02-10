@@ -33,7 +33,7 @@ The dataset contained information on more than 34,000 organizations that have re
 ## Aims and Objective -
 To build Artificial Neural Network Model that can predict whether future applicants will be successful if they were to be funded by Alphabet Soup
 
-## ML Steps to be executed -
+## Machine Learning (Neural Network) Steps to be executed -
 
       (1) Data Preparation and Scaling,
       
@@ -42,7 +42,9 @@ To build Artificial Neural Network Model that can predict whether future applica
       (3) Optimize the Model for best performance possible (Feature Selection, Hyperparameter tuning)
       
       (4) Make recommendation to Alphabet Soup
-      
+
+![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/network.svg)
+
 ## Specific Libraries and modules employed -
       
       (1) Scikit-Learn Library-
