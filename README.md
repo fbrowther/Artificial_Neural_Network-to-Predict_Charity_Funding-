@@ -64,43 +64,37 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ## Modifications included & the improvement in model performance -
 
-![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
-
-
-#### Preprocessing :
-                (1) EIN and NAME—Identification columns were removed from the original dataset,
-                
-                (2) "rare" categorical variables were binned together for "Application_Type" and "Classification" columns, 
-                
-                (3) Data was scaled, 
-                
-                (4) Categorical columns encoded, 
-                
-                (5) Training test and Testing test created & 
-                
-                (6) the models were trained 
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png) 
 
 #### Trained Model Details :
-                (1) First_Model - All features included except 'EIN and NAME'
+                (1) First_Model - 
+                All features included except 'EIN and NAME'
                 
-                (2) Features Reduced - All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed
+                (2) Features Reduced - 
+                All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed
                 
-                (3) Activation Function (Tanh) - Activation Function for hidden layers were changed to 'tanh' from 'relu'
+                (3) Activation Function (Tanh) - 
+                Activation Function for hidden layers were changed to 'tanh' from 'relu'
                 
-                (4) Increased Hidden layers - No. of hidden layers were increased from 2 to 4.
+                (4) Increased Hidden layers - 
+                No. of hidden layers were increased from 2 to 4.
                 
-                (5) Dropout Regularization - 50% of neurons from first hidden layers and 20% from the 2nd, 3rd, and 4th hidden layers were dropped.
+                (5) Dropout Regularization - 
+                50% of neurons from first hidden layers and 20% from the 2nd, 3rd, and 4th hidden layers were dropped.
                 
-                (6) Test Size(40%) + Tanh Activation - Train to Test ratio was increased to 60/40 and retrained using tahn activation function.
+                (6) Test Size(40%) + Tanh Activation - 
+                Train to Test ratio was increased to 60/40 and retrained using tahn activation function.
                 
-                (7) Automated Model (All Features except'EIN and NAME') - Keras Tuner was employed to optimize the hyperparameters 
-                                                                          & derive the best model.
+                (7) Automated Model (All Features except'EIN and NAME') - 
+                Keras Tuner was employed to optimize the hyperparameters & derive the best model.
                 
-                (8) Automated Model (Reduced Features) - All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed and 
-                                                         Keras Tuner was employed to optimize the hyperparameters and derive the best model employed.
+                (8) Automated Model (Reduced Features) - 
+                All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed and 
+                Keras Tuner was employed to optimize the hyperparameters and derive the best model employed.
                 
-                (9) Final Optimization (Organization Names Included)- Organization Names was reintroduced back to the dataset used in first_model 
-                                           and retrained. This produced the highest accuracy score out of all the modifications that was attempted.
+                (9) Final Optimization (Organization Names Included)- 
+                Organization Names was reintroduced back to the dataset used in first_model and retrained. 
+                This produced the highest accuracy score out of all the modifications that was attempted.
 
 ## Discussion and Conclusions -
 
