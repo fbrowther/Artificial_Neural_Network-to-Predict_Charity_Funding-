@@ -98,67 +98,12 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ## Discussion and Conclusions -
 
-The targets for this analysis were 
+        (1) EIN NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, 
+            ASK_AMT were features used for training the model while IS_SUCCESSFUL was the target variable.
 
-NAME—Identification columns
-
-    (b) APPLICATION_TYPE—Alphabet Soup application type
-
-    (c) AFFILIATION—Affiliated sector of industry
-
-    (d) CLASSIFICATION—Government organization classification
-
-    (e) USE_CASE—Use case for funding
-
-    (f) ORGANIZATION—Organization type
-
-    (g) STATUS—Active status
-
-    (h) INCOME_AMT—Income classification
-
-    (i) SPECIAL_CONSIDERATIONS—Special consideration for application
-
-    (j) ASK_AMT—Funding amount requested
-
-    (k) IS_SUCCESSFUL—Was the money used effectively
-
-           (1) Inspite of performing dimensionality reduction employing PCA and tSNE, no specific pattern 
-               or clusters within the dataset was obtained. 
-
-           (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; 
-               this yielded a inertia value of 6030. Further training of the data specifically using n_clusters=3; 
-               didnot yield a successful dispersion of the dataset forming any specific clusters.
-
-            (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. 
-                One such method is the initialization. Using Scikit Learn's "k-means++" and "random" methods, 
-                the model was re-trained and the value of its inertia was compared. The lower most value of inertia 
-                obtained can then be used for hyperparameter tuning. 
-                However, in the above dataset, even this approach failed to obtain distinguishable clusters. 
-
-            (4) The dataset separated into two major clusters (orange and green) was confirmed by Hierarchial Clustering Model
-                (most probably indicating myopic and non-myopic group respectivly).
-
-            (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) 
-                failed to identify any clusters that can be used to predict Myopia in Children aged between 5-9 years old. 
-                However, Hierarchial clustering with further refinement of hyperparameters could potentially yield a 
-                better performing predictive model.
-
-
-## Limitations - 
-
-      (1) In the PCA analysis, 90% of the features were retained, not allowing the PCA to identify the most contributing 
-          features for this dataset. Therefore, the analyses can be repeated with reduced features and assess its performance.
-      
-      (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being 
-          used to build the model.
-          
-
-
-
-
-
-
-
-
-![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores.png)
-
+        (2) Various modifications of the model were performed to increase the accuracy of the model. These included, icreasing the number of
+            hidden layers, changing the activation function, reducing the number of features to the relevant features ("APPLICATION_TYPE", "AFFILIATION", 
+            "CLASSIFICATION") that didnot compromise the model performance, increasing the test size proportion to 40%, reduce the number of neurons in
+            the hidden layers by 50% or 20% (Dropout Regularization), and finally employing the automated model training using Keras Tuner which is 
+            scalable hyperparameter optimization framework that tries all combination of the hyperparameters and chooses the ones that generate the most
+            accuray and picks the best model to train.
