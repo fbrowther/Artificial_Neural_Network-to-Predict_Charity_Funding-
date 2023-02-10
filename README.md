@@ -101,18 +101,18 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ## Discussion and Conclusions -
 
-            (1) NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, 
-            ASK_AMT were features used for training the model while IS_SUCCESSFUL was the target variable.
+       (1) NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, 
+       ASK_AMT were features used for training the model while IS_SUCCESSFUL was the target variable.
 
-            (2) Various modifications of the model were performed to increase the accuracy of the model. These included, icreasing the number of
-            hidden layers, changing the activation function, reducing the number of features to the relevant features ("APPLICATION_TYPE", "AFFILIATION", 
-            "CLASSIFICATION") that didnot compromise the model performance, increasing the test size proportion to 40%, reduce the number of neurons in
-            the hidden layers by 50% or 20% (Dropout Regularization), and finally employing the automated model training using Keras Tuner which is 
-            scalable hyperparameter optimization framework that tries all combination of the hyperparameters and chooses the ones that generate the most
-            accuray and picks the best model to train.
+       (2) Various modifications of the model were performed to increase the accuracy of the model. These included, icreasing the number of
+       hidden layers, changing the activation function, reducing the number of features to the relevant features ("APPLICATION_TYPE", "AFFILIATION", 
+       "CLASSIFICATION") that didnot compromise the model performance, increasing the test size proportion to 40%, reduce the number of neurons in
+       the hidden layers by 50% or 20% (Dropout Regularization), and finally employing the automated model training using Keras Tuner which is 
+       scalable hyperparameter optimization framework that tries all combination of the hyperparameters and chooses the ones that generate the most
+       accuray and picks the best model to train.
             
-            (3) All the model that has been presented here were able to predict both in Training and Test with almost equal accuracy. 
-            Hence there was no problem of underfitting or over-fitting noted in these trained models. 
+       (3) All the model that has been presented here were able to predict both in Training and Test with almost equal accuracy. 
+       Hence there was no problem of underfitting or over-fitting noted in these trained models. 
             
-            (4) In conclusion, it was noted that NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION were the only features that 
-            contributed to predictive power of the models. Any other features (except these) even if excluded didnot influence the model accuracy.
+       (4) In conclusion, it was noted that NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION were the only features that 
+       contributed to predictive power of the models. Any other features (except these) even if excluded didnot influence the model accuracy.
