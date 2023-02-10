@@ -41,7 +41,7 @@ To build Artificial Neural Network Model that can predict whether future applica
       
       (3) Optimize the Model for best performance possible (Feature Selection, Hyperparameter tuning)
       
-      (4) Making recommendation to Alphabet Soup
+      (4) Make recommendation to Alphabet Soup
       
 ## Specific Libraries and modules employed -
       
@@ -53,11 +53,11 @@ To build Artificial Neural Network Model that can predict whether future applica
             
             Manifold - TSNE
   
-      (2) TensorFlow
+      (2) TensorFlow - Neural Network
       
-      (3) keras-tuner
+      (3) keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
       
-      (4) Pandas            
+      (4) Pandas - Data manupulation, Create bins for rare occurrences in columns, scaling, and OneHotEncoding        
 
 
 ![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp)
