@@ -92,7 +92,7 @@ To build Artificial Neural Network Model that can predict whether future applica
                 All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed and 
                 Keras Tuner was employed to optimize the hyperparameters and derive the best model employed.
                 
-                (9) Final Optimization (Organization Names Included)- 
+                (9) Final Optimization (NAME included back in)- 
                 Organization Names was reintroduced back to the dataset used in first_model and retrained. 
                 This produced the highest accuracy score out of all the modifications that was attempted.
 
