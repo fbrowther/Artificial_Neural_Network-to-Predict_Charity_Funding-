@@ -68,7 +68,7 @@ Image was adapted from IBM (https://www.ibm.com/uk-en/cloud/learn/neural-network
 
 ## Model Performance -
 
-![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
 
 #### (1) First_Model 
 
