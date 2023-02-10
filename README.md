@@ -62,16 +62,13 @@ To build Artificial Neural Network Model that can predict whether future applica
       (4) Pandas - Data manupulation, Create bins for rare occurrences in columns, Scaling, and OneHotEncoding        
 
 
-![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/network.svg)
-
-
-
-
 ## Model Performance -
 
 ![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores%20final.png)
 
-#### (1) First_Model 
+## Model Modifications -
+
+#### (1) First_Model - 
 
 
 
