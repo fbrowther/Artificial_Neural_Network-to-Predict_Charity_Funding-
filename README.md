@@ -62,57 +62,23 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp)
 
-### Image was adapted from IBM (https://www.ibm.com/uk-en/cloud/learn/neural-networks)
+Image was adapted from IBM (https://www.ibm.com/uk-en/cloud/learn/neural-networks)
 
 
 
-
-
-
-## Aims and Objective -
-To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
-
-## ML Steps to be executed -
-
-      (1) Data Preparation and Scaling,
-      
-      (2) Dimensionality Reduction using PCA and t-SNE,
-      
-      (3) Cluster Analysis using KMeans Clustering,
-      
-      (4) Hyperparameter Tuning to improve the Model,
-      
-      (5) Hierarchial Clustering to confirm the results,
-      
-      (6) Making recommendation to the end-users
-      
-## Specific Libraries and modules employed -
-      
-      Scikit-Learn ML and Library-
-      
-            (a) Preprocessing - StandardScaler, normalize
-  
-            (b) Decomposition - PCA, 
-  
-            (c) Manifold - TSNE
-  
-            (d) Cluster - KMeans, AgglomerativeClustering
-  
-      Scipy.cluster.hierarchy-
-      
-            (a) Dendrogram, Linkage
-            
 ## Model Performance -
 
-#### (1) Dimensionality Reduction (t-SNE_features plot)
+![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores.png)
 
-![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
+#### (1) First_Model 
+
+
 
 The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.90 was specified which retained 90% of explained variance. However, it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (employing the PCA_features). However, this step did not result in any distinguishable clusters (as shown in figure) that can be used to confidently predict if Myopia was present or not.
 
-#### (2) Kmeans and Elbow Curve 
+#### (2) 
 
-![EC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/Elbow.png)
+
 
 Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However, this step also failed to identify (distinguishable) clusters within the dataset.
 
@@ -121,7 +87,6 @@ Hyperparameter tuning was attempted using initialization employing 'KMeans++' an
 
 #### (4) Hierarchial Clustering 
 
-![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
 
 Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable employing unsupervised ML models. However, the dataset readily separated into two major clusters (orange and green) most likely indicating myopic and non-myopic children respectively. The value counts for lables - non-myopic (0)  and myopic children (1) were 537 and 81 (respectively) in the original dataset. 
 Therefore, Hierarchial Clustering presents itself as a promising model that can be explored further and fined tuned, to predict presence or absense of myopia in younger children. 
