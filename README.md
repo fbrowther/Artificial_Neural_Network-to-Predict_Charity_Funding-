@@ -2,8 +2,7 @@
 
 # Artificial_Neural_Network-to-Predict_Charity_Funding-
 
-A nonprofit foundation called Alphabet Soup wants to develop a tool that can help select its applicants for funding with the best chance of success in their ventures. Hence employing their data on previous funding a binary classifier model was developed which will predict whether applicants will be successful or not if they were to be funded by the foundation. 
-
+A nonprofit foundation called Alphabet Soup wants to develop a tool that can help select its applicants for funding with the best chance of success in their ventures. Hence employing their data on previous funding, a binary classifier model will be developed which will predict whether future applicants will be successful or not if they were to be funded by the foundation. 
 
 ## Brief Introduction - 
 
@@ -31,9 +30,34 @@ The dataset contained information on more than 34,000 organizations that have re
 
         (k) IS_SUCCESSFUL—Was the money used effectively
    	
+## Aims and Objective -
+To build Artificial Neural Network Model that can predict whether future applicants will be successful if they were to be funded by Alphabet Soup
 
+## ML Steps to be executed -
 
-From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
+      (1) Data Preparation and Scaling,
+      
+      (2) Compile, Train, and Evaluate the Neural Network Model,
+      
+      (3) Optimize the Model for best performance possible (Feature Selection, Hyperparameter tuning)
+      
+      (4) Making recommendation to Alphabet Soup
+      
+## Specific Libraries and modules employed -
+      
+      (1) Scikit-Learn Library-
+      
+            (a) Preprocessing - StandardScaler, OneHotEncoder
+  
+            (b) model_selection - train_test_split
+            
+            Manifold - TSNE
+  
+      (2) TensorFlow
+      
+      (3) keras-tuner
+      
+      (4) Pandas            
 
 
 ![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp)
@@ -44,19 +68,6 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 
 
-## Brief Introduction - 
-
-Employing machine learning and neural networks predict whether applicants will be successful if funded by a fictious non-profit foundation called Alphabet Soup.
-
-
-Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US National Eye Institute was obtained to determine whether Myopia can be predicted using unsupervised machine learning models. This data is from children aged 5-9 years old. 
-
-The dataset contained information on -
-
-            (a) Age, 
-            (b) measurements taken at opticians (SPHEQ, AL,	ACD, LT, VCD, DIOPTERHR), 
-            (c) time children spent on different activities (SPORTHR, READHR, COMPHR, STUDYHR, TVHR) and 
-            (d) whether child's parents had myopia themselves (MOMMY, DADMY).	
 
 ## Aims and Objective -
 To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
@@ -153,10 +164,6 @@ Therefore, Hierarchial Clustering presents itself as a promising model that can 
 
 
 
-![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp)
-
-https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp
-
 
 
 
@@ -164,9 +171,3 @@ https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Fundin
 
 ![table](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores.png)
 
-https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Comparison%20of%20accuracy%20scores.png
-
-https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/philanthropists-in-action-1500-1000-cq5dam.web.670.280.webp
-
-
-https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp
