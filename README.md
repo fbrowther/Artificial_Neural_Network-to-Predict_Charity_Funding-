@@ -98,6 +98,30 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ## Discussion and Conclusions -
 
+The targets for this analysis were 
+
+NAME—Identification columns
+
+    (b) APPLICATION_TYPE—Alphabet Soup application type
+
+    (c) AFFILIATION—Affiliated sector of industry
+
+    (d) CLASSIFICATION—Government organization classification
+
+    (e) USE_CASE—Use case for funding
+
+    (f) ORGANIZATION—Organization type
+
+    (g) STATUS—Active status
+
+    (h) INCOME_AMT—Income classification
+
+    (i) SPECIAL_CONSIDERATIONS—Special consideration for application
+
+    (j) ASK_AMT—Funding amount requested
+
+    (k) IS_SUCCESSFUL—Was the money used effectively
+
            (1) Inspite of performing dimensionality reduction employing PCA and tSNE, no specific pattern 
                or clusters within the dataset was obtained. 
 
