@@ -69,41 +69,38 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 #### Preprocessing :
                 (1) EIN and NAME—Identification columns were removed from the original dataset,
+                
                 (2) "rare" categorical variables were binned together for "Application_Type" and "Classification" columns, 
+                
                 (3) Data was scaled, 
+                
                 (4) Categorical columns encoded, 
-                (5) Training test and Testing test created and 
+                
+                (5) Training test and Testing test created & 
+                
                 (6) the models were trained 
 
 #### Trained Model Details :
                 (1) First_Model - All features included except 'EIN and NAME'
+                
                 (2) Features Reduced - All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed
+                
                 (3) Activation Function (Tanh) - Activation Function for hidden layers were changed to 'tanh' from 'relu'
-                (4) Increased Hidden layers - No. of hidden layers were increased to 
-                Dropout Regularization
-                Test Size(40%) + Tanh Activation
-                Automated Model (All Features)
-                Automated Model (Reduced Features)
-                Final Optimization (Organization Names Included)
-
-
-
-The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.90 was specified which retained 90% of explained variance. However, it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (employing the PCA_features). However, this step did not result in any distinguishable clusters (as shown in figure) that can be used to confidently predict if Myopia was present or not.
-
-#### (2) 
-
-
-
-Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However, this step also failed to identify (distinguishable) clusters within the dataset.
-
-#### (3) Hyperparameter tuning using Initialization
-Hyperparameter tuning was attempted using initialization employing 'KMeans++' and 'Random' and this analysis returned the value of inertia that was only able to display a "single" cluster.
-
-#### (4) Hierarchial Clustering 
-
-
-Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable employing unsupervised ML models. However, the dataset readily separated into two major clusters (orange and green) most likely indicating myopic and non-myopic children respectively. The value counts for lables - non-myopic (0)  and myopic children (1) were 537 and 81 (respectively) in the original dataset. 
-Therefore, Hierarchial Clustering presents itself as a promising model that can be explored further and fined tuned, to predict presence or absense of myopia in younger children. 
+                
+                (4) Increased Hidden layers - No. of hidden layers were increased from 2 to 4.
+                
+                (5) Dropout Regularization - 50% of neurons from first hidden layers and 20% from the 2nd, 3rd, and 4th hidden layers were dropped.
+                
+                (6) Test Size(40%) + Tanh Activation - Train to Test ratio was increased to 60/40 and retrained using tahn activation function.
+                
+                (7) Automated Model (All Features except'EIN and NAME') - Keras Tuner was employed to optimize the hyperparameters 
+                                                                          & derive the best model.
+                
+                (8) Automated Model (Reduced Features) - All features except "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION" were removed and 
+                                                         Keras Tuner was employed to optimize the hyperparameters and derive the best model employed.
+                
+                (9) Final Optimization (Organization Names Included)- Organization Names was reintroduced back to the dataset used in first_model 
+                                           and retrained. This produced the highest accuracy score out of all the modifications that was attempted.
 
 ## Discussion and Conclusions -
 
@@ -137,9 +134,6 @@ Therefore, Hierarchial Clustering presents itself as a promising model that can 
       (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being 
           used to build the model.
           
-
-## Data Source: 
-      Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
 
 
 
