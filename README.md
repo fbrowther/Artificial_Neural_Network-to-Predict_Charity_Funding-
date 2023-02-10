@@ -1,5 +1,5 @@
 
-![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ANN.jpg)
+![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.webp)
 
 
 # Artificial_Neural_Network-to-Predict_Charity_Funding-
