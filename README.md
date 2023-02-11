@@ -96,7 +96,8 @@ To build Artificial Neural Network Model that can predict whether future applica
                 Organization Names was reintroduced back to the dataset used in first_model and retrained. 
                 This produced the highest accuracy score out of all the modifications that was attempted.
                 
-                (10) Epoches - No of epoches were increased for most of the models above (from 100 to 200) without further improvement.
+                (10) Epoches - No of epoches were increased for most of the models above (from 100 to 200) 
+                and no further improvement was noted.
 
 
 ## Discussion and Conclusions -
