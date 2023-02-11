@@ -2,7 +2,7 @@
 
 # Artificial_Neural_Network-to-Predict_Charity_Funding-
 
-A nonprofit foundation called Alphabet Soup wants to develop a tool that can help select its applicants for funding with the best chance of success in their ventures. Hence employing their data on previous funding, a binary classifier model will be developed which will predict whether future applicants will be successful or not if they were to be funded by the foundation. 
+A nonprofit foundation called Alphabet Soup wants to develop a tool that can help select its applicants for funding with the best chance of success in their ventures. Employing their historic data on funding approval, a binary classifier model was developed which will predict whether future applicants will be successful or not if they were to be funded by the foundation. 
 
 ## Brief Introduction - 
 
