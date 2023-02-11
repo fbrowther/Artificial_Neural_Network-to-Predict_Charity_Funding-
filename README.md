@@ -35,16 +35,6 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ![images](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/Network1.png)
 
-## Machine Learning (Neural Network) Steps to be executed -
-
-      (1) Data Preparation and Scaling,
-      
-      (2) Compile, Train, and Evaluate the Neural Network Model,
-      
-      (3) Optimize the Model for best performance possible (Feature Selection, Hyperparameter tuning)
-      
-      (4) Make recommendation to Alphabet Soup
-
 ## Specific Libraries and modules employed -
       
       (1) Scikit-Learn Library-
@@ -98,6 +88,9 @@ To build Artificial Neural Network Model that can predict whether future applica
                 
                 (10) Epoches - No of epoches were increased for most of the models above (from 100 to 200) 
                 and no further improvement was noted.
+
+## Final Optimization Model and its performance -
+
 
 
 ## Discussion and Conclusions -
