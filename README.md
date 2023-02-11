@@ -116,3 +116,6 @@ To build Artificial Neural Network Model that can predict whether future applica
             
        (4) In conclusion, it was noted that NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION were the only features that 
        contributed to predictive power of the models. Any other features (except these) even if excluded didnot influence the model accuracy.
+       
+## Impportant files for reference
+        (1) Final optimization files (Jupyter Notebook & HDF5) - 
