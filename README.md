@@ -91,7 +91,7 @@ To build Artificial Neural Network Model that can predict whether future applica
 
 ## Final Optimization Model and its performance -
 
-![Model Def](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/model%20defining.jpg) 
+![Model Def](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/model%20defining%201.jpg) 
 
 ![Model Performance](https://github.com/fbrowther/Artificial_Neural_Network-to-Predict_Charity_Funding-/blob/main/Images/model%20performance.jpg) 
 
